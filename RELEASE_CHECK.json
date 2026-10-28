@@ -1,0 +1,59 @@
+{
+  "timestamp_utc": "2026-10-28T20:01:11.407336+00:00",
+  "state": "LOCAL_PASS_REMOTE_CI_PENDING",
+  "selection_commit": "f29fdb84e565edd43f4491cb4bc2ca62b2c4f09d",
+  "criteria": [
+    {
+      "criterion": "Source/availability/lineage",
+      "grade": "PASS",
+      "evidence": "6046 source records; all1312 eligible feature rows and earlier-result identities independently reconstructed in SQL/scalar code; five information-boundary contracts pass; announcement-vintage limitations explicit"
+    },
+    {
+      "criterion": "Optimization and statistical proof",
+      "grade": "PASS",
+      "evidence": "All14 candidate losses/selection independently verified; all ridge means/scales/prediction equations reconstructed;36 later metric/stratum rows and4000 quarter-block draws checked"
+    },
+    {
+      "criterion": "Reproducibility",
+      "grade": "LOCAL_PASS_REMOTE_UNKNOWN",
+      "evidence": "Separate-directory full Windows replay passes including every candidate loss; exact-head Linux run required before merge"
+    },
+    {
+      "criterion": "Decision and presentation",
+      "grade": "PASS",
+      "evidence": "README separates validation winner from later baseline test, modest transfer, sparse size strata and new-vintage next experiment; all three figures inspected; fixed empty-stratum label positioning"
+    },
+    {
+      "criterion": "Private manuscript",
+      "grade": "PASS",
+      "evidence": "Six-page private LaTeX/PDF compiles and every rendered page inspected; concrete prior-work comparison with GAO AppendixII"
+    },
+    {
+      "criterion": "Code readability/privacy",
+      "grade": "PASS_BOUNDED",
+      "evidence": "Seven Python files formatted with exact AST equivalence; intended-file secret/path/link scan passes; raw responses, binary models, source papers and manuscript drafts excluded"
+    }
+  ],
+  "review_rounds": 2,
+  "budget": "Under20 review-oriented tool calls; active execution/review since19:45UTC remains under45minutes; usage observation is shared account usage, not task billing",
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "window_minutes": 10080,
+    "used_percent": 33,
+    "remaining_percent": 67,
+    "resets_at_unix": 1793782197,
+    "other_windows": "unavailable"
+  },
+  "material_changes": "Actual fourteen-candidate search, independent SQL lineage, frozen selection, later test, quarter-block uncertainty, three reviewed figures, readable code and private manuscript",
+  "retained_failure": "Initial same-day fixture had inconsistent issue/auction dates; corrected fixture before scoring; no analysis change or test-set retuning",
+  "stop_reason": "Require current clean Linux replay before completion",
+  "artifact_sha256": {
+    "README.md": "1696e5c9e79d6cc2dac3d5ef973f85fa78d2ac9d2513e23e70d930d32517b134",
+    "src/analyze.py": "bb2c445f14881c3fd7f95992733b93b338ebcb6b9bb05d35a4cf32407d82cfcd",
+    "src/prepare.py": "a389c401f7deda1d94238bd14f406c35e0fc6136aacd5e3dcda9e2faef6fc3e8",
+    "src/verify.py": "3664a44c4f4aab1dc6d596a9ee1d96788339f25190430938070080985d07b17b",
+    "sql/eligible_history.sql": "825e114d5929a8a81bc33c52d460e572e80816d13ecd964faea687cd0f0a906b",
+    "results/selection.json": "627b1124e7357af77502adffc9ed8313fd8d842ddeeb5fa8f31341749971aef3",
+    "results/test_summary.json": "2bbc3b3b6f9d5b4ae77dfae83d024eea2e4abf7f58ff688c9f5958618733779b"
+  }
+}
