@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-10-28T22:44:10.157307+00:00",
+  "status": "PASS_SCOPED_GITHUB_EDITION",
+  "grade": 4,
+  "pages": 6,
+  "criteria": {
+    "correctness": "PASS: all numerical tokens match the reviewed source and all referenced figure bytes match",
+    "rendered_layout": "PASS: all current pages inspected in rendered review sheets; no clipped text, overlap or missing figures observed",
+    "privacy": "PASS: source and extracted PDF text scanned; no attachments or JavaScript; only explicit reviewed files included",
+    "scope": "PASS: independent study only; not peer reviewed; formal-publication projects excluded"
+  },
+  "base_analysis_commit": "20df84d5cb228bb694fd899af16efef82f5009e5",
+  "public_files_sha256": {
+    "paper/main.tex": "17e34e5aebebb48ff431d7d3558a4c65051b351fbec573e9c90db793122a61fd",
+    "paper/manuscript.pdf": "652144ccaafde3e95587c0819103dfea656326d3c563fe7e1bcb032a193b70e9",
+    "paper/images/decision-summary.pdf": "c5e624056d7cadd75a8e3d75128a76ae2a3c04b4243ff2aea209e632426b24f0",
+    "paper/images/optimization-evidence.pdf": "b43a6ea6544fbf7046136d5a2f73e206b718f89cc04071b6bec1f6445a013b50",
+    "paper/images/size-stress.pdf": "104c1226b5fede6f2f53eaf7dc8dd60f0c09506dde6dca0ff403494201578aab"
+  },
+  "limitations": "This is a publication-format check. It reuses unchanged scientific evidence and does not establish peer review, novelty, deployment or universal secret detection."
+}

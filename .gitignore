@@ -9,3 +9,6 @@ private/
 *.tex
 *.aux
 *.out
+
+# Explicitly approved independent research source.
+!paper/main.tex

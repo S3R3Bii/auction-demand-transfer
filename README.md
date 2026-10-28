@@ -1,5 +1,7 @@
 # Auction demand: a simple baseline earns the selection
 
+[Research manuscript: PDF and LaTeX](paper/README.md)
+
 **The previous-six same-maturity mean beat every fitted model in the declared validation comparison.** Its later performance improves modestly on the median for a maturity excluded from fitting and selection, while the two history rules are essentially tied for other maturities. The practical choice is a transparent reference forecast while a more demanding, vintage-aware model earns its added complexity.
 
 This is a retrospective analysis of official Treasury aggregate auction statistics. Current historical responses do not establish the values available at first release. Outcomes are bid-to-cover ratios; no trading return, causal issuance effect or realized financial benefit is measured.
@@ -54,4 +56,4 @@ The replay runs in a temporary directory. It rebuilds every feature, refits all 
 
 [Search](results/search.csv) · [Frozen selection](results/selection.json) · [Test results](results/test_summary.json) · [Independent checks](results/verification_test.json) · [Model-validation standard](MODEL_VALIDATION_STANDARD.md)
 
-Raw API responses, binary fitted models, source papers and private manuscript drafts are excluded from GitHub. Original code and derived evidence are public; reproducibility retrieves the exact hashed official source. The private LaTeX manuscript remains an unpublished working draft.
+Raw API responses, binary fitted models and source papers are excluded from GitHub. Original code and derived evidence are public; reproducibility retrieves the exact hashed official source. The independent research manuscript is available in [PDF and LaTeX](paper/README.md); it has not been peer reviewed.
