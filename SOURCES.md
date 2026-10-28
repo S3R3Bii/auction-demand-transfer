@@ -1,0 +1,9 @@
+# Official aggregate source
+
+U.S. Department of the Treasury, Bureau of the Fiscal Service, **Treasury Securities Auctions Data**, Fiscal Data API. [Official auction query](https://www.treasurydirect.gov/auctions/auction-query/), [official dataset](https://fiscaldata.treasury.gov/datasets/treasury-securities-auctions-data/), [API documentation](https://fiscaldata.treasury.gov/api-documentation/).
+
+The official aggregate API supplies field labels and data types with its response. The fixed endpoint is `https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query`. This project stores exact bounded queries and response hashes. The source's returned string `null` is missing, never zero. Auction results and announcement fields have different availability; the protocol excludes contemporaneous result fields from predictors.
+
+[31CFR356.2](https://www.govinfo.gov/content/pkg/CFR-2025-title31-vol2/pdf/CFR-2025-title31-vol2-part356.pdf) defines bid-to-cover using par amounts bid and awarded, excluding Federal Reserve bids/awards for its own account. This study uses the reported ratio, not a naive ratio of total amounts. [Treasury's query help](https://treasurydirect.services.treasury.gov/auctions/auction-query/auction-query-help/) documents export access. Current historical responses do not establish first-release vintages.
+
+The website's dataset/documentation pages returned403 to the research fetcher, while the public aggregate API responded successfully without a key. No access-control bypass, credentials, account or paid service was used. A dataset-specific reuse statement remains unresolved, so raw response files stay local and are retrieved from the official source for reproduction. Public artifacts contain original code and derived analysis. No Treasury review, endorsement, real trading result or investment advice is implied. Manuscript drafts and source papers are excluded from GitHub.
