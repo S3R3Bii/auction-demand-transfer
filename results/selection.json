@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-10-28T19:49:30.396129+00:00",
+  "winner": "baseline_prior6_mean",
+  "baseline": "baseline_prior6_median",
+  "criterion": "Auction-level validation MSE, then name",
+  "candidates": 14,
+  "features": [
+    "term_years",
+    "log_offering_billions",
+    "reopening_flag",
+    "announcement_month",
+    "announcement_lead_days",
+    "auction_weekday",
+    "days_to_month_end",
+    "prior6_mean",
+    "prior6_median",
+    "prior1",
+    "prior6_offering_billions",
+    "offering_ratio"
+  ],
+  "development_input_sha256": "20bb8e28ceb83ac3ece5c0d39871fb59dbfdb6e23bb3cbf79a82717f4d8a979e",
+  "fit_rows": 599,
+  "tuning_rows": 207,
+  "fit_key_sha256": "c9cf969c7aa79107e8c15cf0165acf6026a1072af52ecb4295c717b9ca1f4e98",
+  "tune_key_sha256": "c09dc507240f3cb6e5325eafa4221aa6a0a74debe2a954dde0456bfae8bb0f8b",
+  "seed": 20261028,
+  "test_not_evaluated": true
+}

@@ -29,3 +29,7 @@ Report MSE, RMSE and MAE by test cohort and original term, and descriptive error
 ## Independent checks and release
 
 Independently reconstruct all lag-feature source dates and values, targets, splits, every candidate's validation MSE and selection, test MSE/MAE/strata and quarter-block intervals. Test same-day and future-result exclusion, current-result-field exclusion, maturity partitioning, source-key uniqueness and train-only standardization. Inspect decision figures and private LaTeX/PDF. A full clean replay must preserve selection and required metrics at1e-7absolute/1e-9relative tolerance before a release is complete. Keep blocked source, portability or evidence gates visible; do not count configurations or protocols as completed studies.
+
+## Source-schema clarification before test evaluation
+
+Development counts show no20-year originals in2010–2019 fitting data, while27 eligible20-year rows appear in tuning. Therefore the main test cohort is named **non10year**, not universally seen maturities;20-year transfer is separately visible in term-level results. The explicit10-year parameter holdout, dates, grid and selection criterion are unchanged. This clarification predates protected test evaluation. The design uses one forward validation period; it does not claim a multi-fold rolling-origin experiment.

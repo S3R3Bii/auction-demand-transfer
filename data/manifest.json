@@ -1,0 +1,140 @@
+{
+  "retrieved_utc": "2026-10-28T19:46:09.924711+00:00",
+  "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
+  "dataset": "Treasury Securities Auctions Data",
+  "fields": [
+    "record_date",
+    "cusip",
+    "security_type",
+    "security_term",
+    "original_security_term",
+    "auction_date",
+    "announcemt_date",
+    "issue_date",
+    "maturity_date",
+    "bid_to_cover_ratio",
+    "offering_amt",
+    "reopening",
+    "floating_rate",
+    "inflation_index_security",
+    "total_tendered",
+    "total_accepted",
+    "soma_tendered",
+    "soma_accepted"
+  ],
+  "labels": {
+    "record_date": "Record Date",
+    "cusip": "CUSIP",
+    "security_type": "Security Type",
+    "security_term": "Security Term",
+    "original_security_term": "Original Security Term",
+    "auction_date": "Auction Date",
+    "announcemt_date": "Announcement Date",
+    "issue_date": "Issue Date",
+    "maturity_date": "Maturity Date",
+    "bid_to_cover_ratio": "Bid To Cover Ratio",
+    "offering_amt": "Offering Amount",
+    "reopening": "Reopening",
+    "floating_rate": "Floating Rate",
+    "inflation_index_security": "Inflation Index Security",
+    "total_tendered": "Total Tendered",
+    "total_accepted": "Total Accepted",
+    "soma_tendered": "SOMA Tendered",
+    "soma_accepted": "SOMA Accepted"
+  },
+  "types": {
+    "record_date": "DATE",
+    "cusip": "STRING",
+    "security_type": "STRING",
+    "security_term": "STRING",
+    "original_security_term": "STRING",
+    "auction_date": "DATE",
+    "announcemt_date": "DATE",
+    "issue_date": "DATE",
+    "maturity_date": "DATE",
+    "bid_to_cover_ratio": "NUMBER",
+    "offering_amt": "CURRENCY",
+    "reopening": "STRING",
+    "floating_rate": "STRING",
+    "inflation_index_security": "STRING",
+    "total_tendered": "NUMBER",
+    "total_accepted": "NUMBER",
+    "soma_tendered": "NUMBER",
+    "soma_accepted": "NUMBER"
+  },
+  "formats": {
+    "record_date": "YYYY-MM-DD",
+    "cusip": "String",
+    "security_type": "String",
+    "security_term": "String",
+    "original_security_term": "String",
+    "auction_date": "YYYY-MM-DD",
+    "announcemt_date": "YYYY-MM-DD",
+    "issue_date": "YYYY-MM-DD",
+    "maturity_date": "YYYY-MM-DD",
+    "bid_to_cover_ratio": "10.2",
+    "offering_amt": "$10.20",
+    "reopening": "String",
+    "floating_rate": "String",
+    "inflation_index_security": "String",
+    "total_tendered": "10.2",
+    "total_accepted": "10.2",
+    "soma_tendered": "10.2",
+    "soma_accepted": "10.2"
+  },
+  "rows": 6046,
+  "pages": 7,
+  "files": [
+    {
+      "file": "data/raw/auctions-1.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=1",
+      "bytes": 490642,
+      "sha256": "753b30fec48aa69ed0b18b8d772637df9ed0d6dbbf189042990350700bf6fe3c",
+      "rows": 1000
+    },
+    {
+      "file": "data/raw/auctions-2.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=2",
+      "bytes": 484058,
+      "sha256": "e61844bc35299b85fe076d1400796dff954b791d3e03f2f52de844a5d4113044",
+      "rows": 1000
+    },
+    {
+      "file": "data/raw/auctions-3.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=3",
+      "bytes": 487239,
+      "sha256": "ab0e9e8d364a6e40310e944956725026448e575d590deccef0e0ddd1060e4bab",
+      "rows": 1000
+    },
+    {
+      "file": "data/raw/auctions-4.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=4",
+      "bytes": 494970,
+      "sha256": "2c5d3336ad34dd50cc51ab67483c474a6adb08cbc07660d3747ce79db1118b7d",
+      "rows": 1000
+    },
+    {
+      "file": "data/raw/auctions-5.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=5",
+      "bytes": 496744,
+      "sha256": "27bf2530ec7875ac49e2210add4d4f27e29a8ce081046590a564af642ac6d84e",
+      "rows": 1000
+    },
+    {
+      "file": "data/raw/auctions-6.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=6",
+      "bytes": 499292,
+      "sha256": "63c8b05dacc70e6bf058d61106d2083eaab8b2ebb87feafe15ecfe5809b6e600",
+      "rows": 1000
+    },
+    {
+      "file": "data/raw/auctions-7.json",
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query?fields=record_date%2Ccusip%2Csecurity_type%2Csecurity_term%2Coriginal_security_term%2Cauction_date%2Cannouncemt_date%2Cissue_date%2Cmaturity_date%2Cbid_to_cover_ratio%2Coffering_amt%2Creopening%2Cfloating_rate%2Cinflation_index_security%2Ctotal_tendered%2Ctotal_accepted%2Csoma_tendered%2Csoma_accepted&filter=auction_date%3Agte%3A2009-01-01%2Cauction_date%3Alte%3A2026-09-30&sort=auction_date%2Ccusip&page%5Bsize%5D=1000&page%5Bnumber%5D=7",
+      "bytes": 24746,
+      "sha256": "7ab43a611612f957d14ab3422120828276c437ed732cccaf9a933bb8d8d147ab",
+      "rows": 46
+    }
+  ],
+  "raw_redistributed": false,
+  "revision_scope": "Current historical response; original publication vintages unverified"
+}

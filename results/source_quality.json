@@ -1,0 +1,25 @@
+{
+  "rows_by_cohort": {
+    "fit": 599,
+    "tune": 207,
+    "held_maturity_history_only": 158,
+    "warmup": 33
+  },
+  "fit_term_counts": {
+    "2": 111,
+    "3": 119,
+    "5": 120,
+    "7": 129,
+    "30": 120
+  },
+  "tuning_term_counts": {
+    "2": 36,
+    "3": 36,
+    "5": 35,
+    "7": 37,
+    "20": 27,
+    "30": 36
+  },
+  "development_input_sha256": "20bb8e28ceb83ac3ece5c0d39871fb59dbfdb6e23bb3cbf79a82717f4d8a979e",
+  "test_metrics_not_read": true
+}

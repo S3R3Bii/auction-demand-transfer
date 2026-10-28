@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "candidate_metrics_recomputed": 14,
+  "development_feature_rows_checked": 997,
+  "lineage": "Every exported earlier-result identity and feature checked with independent SQL/scalar reconstruction",
+  "ridge": "All train-only means/scales and validation predictions independently reconstructed"
+}
