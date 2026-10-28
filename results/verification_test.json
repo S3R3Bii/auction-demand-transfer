@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "test_feature_rows_checked": 315,
+  "metrics_checked": 36,
+  "bootstrap_draws_checked": 4000,
+  "scope": "Full feature lineage, targets, all metric/stratum exports and calendar-quarter blocks independently reconstructed"
+}

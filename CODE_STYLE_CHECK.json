@@ -1,0 +1,15 @@
+{
+  "formatter": "Black25.1.0 from official PyPI",
+  "files_formatted": [
+    "src\\analyze.py",
+    "src\\check_reproduction.py",
+    "src\\figures.py",
+    "src\\prepare.py",
+    "src\\retrieve.py",
+    "src\\verify.py",
+    "tests\\test_contracts.py"
+  ],
+  "check": "AST before/after exactly equal, attributes excluded",
+  "status": "PASS",
+  "scope": "Readability only; no analysis/model changes"
+}

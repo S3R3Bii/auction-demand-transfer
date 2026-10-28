@@ -1,0 +1,381 @@
+{
+  "evaluated_utc": "2026-10-28T19:52:08.174073+00:00",
+  "scope": "Retrospective announcement-field evaluation; original publication vintages unverified",
+  "test_input_sha256": "751f979a99104ab3a91c2c0f8c953fe60ce477f368b0423e36dbdfbdd697f6f9",
+  "metrics": [
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior6_mean",
+      "auctions": 45,
+      "mse": 0.011525617283950613,
+      "rmse": 0.10735742770740464,
+      "mae": 0.08640740740740736
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 10,
+      "auctions": 45,
+      "mse": 0.011525617283950613,
+      "rmse": 0.10735742770740464,
+      "mae": 0.08640740740740736
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "offering_ratio",
+      "value": "0.8to1.2",
+      "auctions": 45,
+      "mse": 0.011525617283950613,
+      "rmse": 0.10735742770740464,
+      "mae": 0.08640740740740736
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior6_median",
+      "auctions": 45,
+      "mse": 0.01315777777777776,
+      "rmse": 0.11470735712140595,
+      "mae": 0.0915555555555555
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 10,
+      "auctions": 45,
+      "mse": 0.01315777777777776,
+      "rmse": 0.11470735712140595,
+      "mae": 0.0915555555555555
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior6_median",
+      "stratum": "offering_ratio",
+      "value": "0.8to1.2",
+      "auctions": 45,
+      "mse": 0.01315777777777776,
+      "rmse": 0.11470735712140595,
+      "mae": 0.0915555555555555
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior1",
+      "auctions": 45,
+      "mse": 0.02004888888888889,
+      "rmse": 0.1415940990609739,
+      "mae": 0.1137777777777778
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 10,
+      "auctions": 45,
+      "mse": 0.02004888888888889,
+      "rmse": 0.1415940990609739,
+      "mae": 0.1137777777777778
+    },
+    {
+      "cohort": "held10year",
+      "model": "baseline_prior1",
+      "stratum": "offering_ratio",
+      "value": "0.8to1.2",
+      "auctions": 45,
+      "mse": 0.02004888888888889,
+      "rmse": 0.1415940990609739,
+      "mae": 0.1137777777777778
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "auctions": 270,
+      "mse": 0.015010257201646091,
+      "rmse": 0.12251635483332865,
+      "mae": 0.09448765432098767
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 2,
+      "auctions": 44,
+      "mse": 0.017351767676767663,
+      "rmse": 0.13172610856154396,
+      "mae": 0.10386363636363637
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 3,
+      "auctions": 45,
+      "mse": 0.020354074074074073,
+      "rmse": 0.1426677050844867,
+      "mae": 0.1108148148148149
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 5,
+      "auctions": 45,
+      "mse": 0.0090029012345679,
+      "rmse": 0.09488361942173107,
+      "mae": 0.06100000000000002
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 7,
+      "auctions": 46,
+      "mse": 0.011570833333333327,
+      "rmse": 0.1075678080716221,
+      "mae": 0.08909420289855068
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 20,
+      "auctions": 45,
+      "mse": 0.021230493827160503,
+      "rmse": 0.14570687638941582,
+      "mae": 0.12474074074074082
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "term",
+      "value": 30,
+      "auctions": 45,
+      "mse": 0.010679938271604938,
+      "rmse": 0.10334378680697229,
+      "mae": 0.07774074074074075
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "offering_ratio",
+      "value": "0.8to1.2",
+      "auctions": 263,
+      "mse": 0.014922972116603294,
+      "rmse": 0.12215961737253148,
+      "mae": 0.09412547528517112
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_mean",
+      "stratum": "offering_ratio",
+      "value": "above1.2",
+      "auctions": 7,
+      "mse": 0.01828968253968252,
+      "rmse": 0.13523935277752006,
+      "mae": 0.108095238095238
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "auctions": 270,
+      "mse": 0.014978148148148148,
+      "rmse": 0.12238524481385879,
+      "mae": 0.09340740740740743
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 2,
+      "auctions": 44,
+      "mse": 0.017030681818181816,
+      "rmse": 0.13050165446530482,
+      "mae": 0.1022727272727273
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 3,
+      "auctions": 45,
+      "mse": 0.020321111111111113,
+      "rmse": 0.14255213471257144,
+      "mae": 0.10955555555555559
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 5,
+      "auctions": 45,
+      "mse": 0.008285000000000008,
+      "rmse": 0.09102197536858891,
+      "mae": 0.05633333333333339
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 7,
+      "auctions": 46,
+      "mse": 0.012146739130434774,
+      "rmse": 0.1102122458279241,
+      "mae": 0.0906521739130434
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 20,
+      "auctions": 45,
+      "mse": 0.022148333333333346,
+      "rmse": 0.14882316127986714,
+      "mae": 0.12677777777777782
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "term",
+      "value": 30,
+      "auctions": 45,
+      "mse": 0.010045555555555566,
+      "rmse": 0.10022751895340704,
+      "mae": 0.07511111111111118
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "offering_ratio",
+      "value": "0.8to1.2",
+      "auctions": 263,
+      "mse": 0.014873384030418255,
+      "rmse": 0.12195648416717438,
+      "mae": 0.09300380228136886
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior6_median",
+      "stratum": "offering_ratio",
+      "value": "above1.2",
+      "auctions": 7,
+      "mse": 0.018914285714285696,
+      "rmse": 0.13752921767495696,
+      "mae": 0.10857142857142854
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "auctions": 270,
+      "mse": 0.023053333333333335,
+      "rmse": 0.15183324185873573,
+      "mae": 0.11792592592592593
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 2,
+      "auctions": 44,
+      "mse": 0.021631818181818183,
+      "rmse": 0.14707759238516988,
+      "mae": 0.12090909090909091
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 3,
+      "auctions": 45,
+      "mse": 0.03200666666666666,
+      "rmse": 0.17890407112938114,
+      "mae": 0.1433333333333333
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 5,
+      "auctions": 45,
+      "mse": 0.008966666666666675,
+      "rmse": 0.09469248474227865,
+      "mae": 0.06377777777777785
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 7,
+      "auctions": 46,
+      "mse": 0.017202173913043472,
+      "rmse": 0.13115705818995588,
+      "mae": 0.103695652173913
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 20,
+      "auctions": 45,
+      "mse": 0.044259999999999994,
+      "rmse": 0.21038060747131612,
+      "mae": 0.1753333333333334
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "term",
+      "value": 30,
+      "auctions": 45,
+      "mse": 0.014351111111111117,
+      "rmse": 0.11979612310551255,
+      "mae": 0.1008888888888889
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "offering_ratio",
+      "value": "0.8to1.2",
+      "auctions": 263,
+      "mse": 0.023163878326996196,
+      "rmse": 0.1521968407260683,
+      "mae": 0.11790874524714831
+    },
+    {
+      "cohort": "non10year",
+      "model": "baseline_prior1",
+      "stratum": "offering_ratio",
+      "value": "above1.2",
+      "auctions": 7,
+      "mse": 0.018900000000000028,
+      "rmse": 0.1374772708486753,
+      "mae": 0.1185714285714287
+    }
+  ],
+  "block_intervals": [
+    {
+      "cohort": "held10year",
+      "quantity": "Selected minus six-median MSE",
+      "quarters": 15,
+      "draws": 2000,
+      "mean": -0.0016321604938271455,
+      "percentile95": [
+        -0.0032861003086419667,
+        -0.00017788271604936886
+      ],
+      "scope": "Calendar-quarter block bootstrap conditional on observed quarters; no trading-return or causal claim"
+    },
+    {
+      "cohort": "non10year",
+      "quantity": "Selected minus six-median MSE",
+      "quarters": 15,
+      "draws": 2000,
+      "mean": 3.210905349793807e-05,
+      "percentile95": [
+        -0.0009328050411522654,
+        0.0009611136831275647
+      ],
+      "scope": "Calendar-quarter block bootstrap conditional on observed quarters; no trading-return or causal claim"
+    }
+  ]
+}
